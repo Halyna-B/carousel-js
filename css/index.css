@@ -51,5 +51,34 @@ body {
     padding-bottom: 50px;
 }
 
+.curr-img {
+    width: 80%;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.prev, .next {
+    font-size: 30px;
+    color: var(--main-color);
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+}
+.landscapes .lnd-btn {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+.landscapes {
+    background: var(--middle-section-bg-color);
+}
 
 
