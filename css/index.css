@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap'); 
+
+
+:root {
+    --secondary-color: #505155;
+    --main-color: #ffffff;
+    --before-heading-line: #EE2E14;
+    --mini-heading-color: #6F7380;
+    --middle-section-bg-color: #232528;
+    --highlight-color:  #14a9ee;
+    --third-color: #000000;
+    --content-color: #969799;
+    --input-color: #464c5c;
+    --incolor: #9199ab;
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Playfair Display', serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+.testimonials-carousel img {
+    width: 20%;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 60%;
+    border-color: #f5f5f5;
+}
+.testimonials-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--secondary-color);
+    background: url("../img/testimonials-bg.png");
+}
+
+.testimonials-carousel h5, .date {
+    font-weight: bold;
+}
+
+.testimonials-btn {
+    color: var(--middle-section-bg-color);
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+
+
